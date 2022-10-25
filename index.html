@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>P r a c t i c a</title>
+</head>
+<body>
+  <h1 id="title" class="title">This is my title</h1>
+  <p class="title" id="description">An explanation for title</p>
+  <div class="container">
+    <form action="#" id="survey-form">
+      <div class="form-control">
+        <label id="name-label" for="name"> YOUR NAME</label>
+        <input id="name" for="name" type="text" placeholder="Enter your name here" required><BR>
+      </div>
+      <div class="form-control">
+        <label id="email-label" for="email"> YOUR EMAIL</label>
+        <input id="email" for="email" type="email" placeholder="Enter your email here" required><br>
+      </div>
+      <div class="form-control">
+        <label id="number-label" for="age">YOUR AGE</label>
+        <input id="number" for="age" type="number" max="99" min="16" placeholder="Enter your age"vrequired><br>
+      </div>
+      <hr class="line">
+      <!-- !DROPDOWN CODE AREA BELOW -->
+      <div class="dropdown">
+        <!-- <label for="dropdown">dropdown </label><br> -->
+        <p>DROPDOWN SELECTION AREA</p>
+        <select name="dropdown" id="dropdown">
+          <option disabled selected value >Select an option</option>
+          <option value="option-1" class="optional">1st.option</option>
+          <option value="option-2" class="optional">2nd.option</option>
+          <option value="option-2" class="optional">3rd.option</option>
+        </select>
+      </div><br>
+      <hr class="line">
+      <!-- !ROUND SELECTOR GROUP (only one can be selected)-->
+      <div class="radio">
+        <p> Option Round Selector</p>
+        <label for="1stoption">
+          <input type="radio" name="1stoption-2ndoption-3rdoption" id="1stoption" value="1stoption" class="radioclass"
+            checked>1st. option
+        </label><br>
+        <label for="2ndoption">
+          <input type="radio" name="1stoption-2ndoption-3rdoption" id="2ndoption" value="2ndoption"
+            class="radioclass">2nd. option
+        </label><br>
+        <label for="3rdoption">
+          <input type="radio" name="1stoption-2ndoption-3rdoption" id="3rdoption" value="3rdoption"
+            class="radioclass">3rd. option
+        </label><br>
+      </div>
+      <hr class="line">
+      <!-- ! CHECKMARK SELECTOR GROUP (multiple selections can be choosen) -->
+      <div class="squareopt">
+        <p>CHECKBOX AREA BELOW</p>
+        <label for="chkbox1">
+          <input type="checkbox" name="chkbox1" value="chkbox1" id="chkbox1"></input>Selection one
+        </label><br>
+        <label for="chkbox2">
+          <input type="checkbox" name="chkbox2" value="chkbox2" id="chkbox2"></input>Selection two
+        </label><br>
+        <label for="chkbox3">
+          <input type="checkbox" name="chkbox3" value="chkbox3" id="chkbox3"></input>Selection tree
+        </label><br>
+        <label for="chkbox4">
+          <input type="checkbox" name="chkbox4" value="chkbox4" id="chkbox4"></input>Selection four
+        </label>
+      </div><br>
+      <hr class="line">
+      <!-- !TEXT AREA  -->
+      <div class="textarea">
+        <p>TEXT AREA</p>
+        <label for="textarea">
+          <textarea  placeholder="enter your comments here pls."></textarea>
+        </label><br><br>
+        <!-- !SUBMIT BUTTON AREA -->
+      </div>
+      <div class="submit">
+        <input type="submit" id="submit" value="submit">
+      </div><br>
+    </form>
+  </div>
+</body>
+</html>
