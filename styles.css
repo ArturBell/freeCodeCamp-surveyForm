@@ -1,5 +1,6 @@
 * {
     font-family: monospace;
+    --transluncent-bg-color: rgba(244, 344, 244, 0.45)
 }
 
 .title {
@@ -7,28 +8,26 @@
     color: white;
 }
 .container {
-    background-color: rgba(244, 344, 244, 0.25);
+    background-color: var(--transluncent-bg-color);
     padding: 20px 0px 20px 0px;
     border-radius: 15px;
     max-width: 700px;
     margin: auto;
 }
 body {
-    background-image: url(/media/dark-background-abstract-background-network-3d-background-7680x4320-8324.png);
+    background-image: url(https://4kwallpapers.com/images/walls/thumbs_2t/8324.png);
     background-size: cover;
 }
 /* ! contact info area */
 .form-control {
     display: block;
-    width: 50%;
-    background-color: inherit;
+    width: 60%;
     padding-left: 50px;
 }
 .form-control > input {
     display: block;
     width: 100%;
-    background-color: rgba(244, 344, 244, 0.45);
-    /* background-color: rgba(244, 344, 244, 0.035); */
+    background-color: var(--transluncent-bg-color);
     border: none;
     border-radius: 5px;
 }
@@ -53,7 +52,7 @@ label {
     width: auto;
     height: 23px;
     display: block;
-    background-color: rgba(244, 344, 244, 0.45);
+    background-color: var(--transluncent-bg-color);
     border: none;
     border-radius: 5px;
     color: black;

@@ -5,77 +5,77 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="styles.css">
-  <title>P r a c t i c a</title>
+  <title>Survey-Form</title>
 </head>
 <body>
-  <h1 id="title" class="title">This is my title</h1>
-  <p class="title" id="description">An explanation for title</p>
+  <h1 id="title" class="title">HI! this is my first website</h1>
+  <p class="title" id="description">Please share your opinion about how it looks.<br>Your comments will be helpful to improve!</p>
   <div class="container">
     <form action="#" id="survey-form">
       <div class="form-control">
-        <label id="name-label" for="name"> YOUR NAME</label>
+        <label id="name-label" for="name">First of all: What's your name?</label>
         <input id="name" for="name" type="text" placeholder="Enter your name here" required><BR>
       </div>
       <div class="form-control">
-        <label id="email-label" for="email"> YOUR EMAIL</label>
+        <label id="email-label" for="email">And so important: What's your email?</label>
         <input id="email" for="email" type="email" placeholder="Enter your email here" required><br>
       </div>
       <div class="form-control">
-        <label id="number-label" for="age">YOUR AGE</label>
-        <input id="number" for="age" type="number" max="99" min="16" placeholder="Enter your age"vrequired><br>
+        <label id="number-label" for="age">Rate from 1 to 10 </label>
+        <input id="number" for="age" type="number" min="1" max="10" placeholder="How it looks"vrequired><br>
       </div>
       <hr class="line">
       <!-- !DROPDOWN CODE AREA BELOW -->
       <div class="dropdown">
         <!-- <label for="dropdown">dropdown </label><br> -->
-        <p>DROPDOWN SELECTION AREA</p>
+        <p>What did you like the most?</p>
         <select name="dropdown" id="dropdown">
           <option disabled selected value >Select an option</option>
-          <option value="option-1" class="optional">1st.option</option>
-          <option value="option-2" class="optional">2nd.option</option>
-          <option value="option-2" class="optional">3rd.option</option>
+          <option value="option-1" class="optional">Backround image</option>
+          <option value="option-2" class="optional">Color palet</option>
+          <option value="option-2" class="optional">Translucent effects</option>
         </select>
       </div><br>
       <hr class="line">
       <!-- !ROUND SELECTOR GROUP (only one can be selected)-->
       <div class="radio">
-        <p> Option Round Selector</p>
+        <p> What do you think about the font?</p>
         <label for="1stoption">
           <input type="radio" name="1stoption-2ndoption-3rdoption" id="1stoption" value="1stoption" class="radioclass"
-            checked>1st. option
+            checked>Too big
         </label><br>
         <label for="2ndoption">
           <input type="radio" name="1stoption-2ndoption-3rdoption" id="2ndoption" value="2ndoption"
-            class="radioclass">2nd. option
+            class="radioclass">Too small
         </label><br>
         <label for="3rdoption">
           <input type="radio" name="1stoption-2ndoption-3rdoption" id="3rdoption" value="3rdoption"
-            class="radioclass">3rd. option
+            class="radioclass">It's ok for me!
         </label><br>
       </div>
       <hr class="line">
       <!-- ! CHECKMARK SELECTOR GROUP (multiple selections can be choosen) -->
       <div class="squareopt">
-        <p>CHECKBOX AREA BELOW</p>
+        <p>Is there something you would like to change?</p>
         <label for="chkbox1">
-          <input type="checkbox" name="chkbox1" value="chkbox1" id="chkbox1"></input>Selection one
+          <input type="checkbox" name="chkbox1" value="chkbox1" id="chkbox1"></input>Font family
         </label><br>
         <label for="chkbox2">
-          <input type="checkbox" name="chkbox2" value="chkbox2" id="chkbox2"></input>Selection two
+          <input type="checkbox" name="chkbox2" value="chkbox2" id="chkbox2"></input>Color palete
         </label><br>
         <label for="chkbox3">
-          <input type="checkbox" name="chkbox3" value="chkbox3" id="chkbox3"></input>Selection tree
+          <input type="checkbox" name="chkbox3" value="chkbox3" id="chkbox3"></input>Backround image
         </label><br>
         <label for="chkbox4">
-          <input type="checkbox" name="chkbox4" value="chkbox4" id="chkbox4"></input>Selection four
+          <input type="checkbox" name="chkbox4" value="chkbox4" id="chkbox4"></input>Space between elements
         </label>
       </div><br>
       <hr class="line">
       <!-- !TEXT AREA  -->
       <div class="textarea">
-        <p>TEXT AREA</p>
+        <p>Do you have any comments to share?</p>
         <label for="textarea">
-          <textarea  placeholder="enter your comments here pls."></textarea>
+          <textarea  placeholder="Enter your comments here please."></textarea>
         </label><br><br>
         <!-- !SUBMIT BUTTON AREA -->
       </div>
